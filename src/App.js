@@ -1,12 +1,16 @@
+import MyHeading from "./components/MyHeading";
+import { Sam1, Sam2 as Sameer2 } from './components/MyHeading'
 
-const Heading=()=><h1>Heading using arrow function </h1> 
-  
+
 
 export default function App() {
   return (
-    <div>
-      <Heading />
-      <h1>hello react.... how r u??????</h1>
+    <div className="App">
+      <MyHeading />
+      <Sam1 />
+      <Sameer2 />
+      <MyHeading />
     </div>
+
   )
 }
