@@ -1,9 +1,6 @@
 
-function Heading() {
-  return (
-    <h1>Heading</h1>
-  )
-}
+const Heading=()=><h1>Heading using arrow function </h1> 
+  
 
 export default function App() {
   return (
